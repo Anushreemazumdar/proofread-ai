@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+backend/venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Node & Frontend dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+coverage/
+*.lcov
+
+# Temporary files
+scratch/
+tmp/
+*.log
